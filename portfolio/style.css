@@ -1,0 +1,266 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('11.jpeg'); /* URL to your image */
+    background-size: cover; /* Ensures the image covers the whole body */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    background-position: center; /* Centers the image */
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    /* background: #112; */
+    color: #fff;
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Countdown Section */
+.countdown-section {
+    /* background: #1e2a38; */
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-section img{
+    height: 20%;
+    z-index: -1;
+}
+
+#countdown h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#timer {
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    /* background: #0e1621; */
+    display: inline-block;
+}
+
+#preview-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#preview-button:hover {
+    background: #0056b3;
+}
+
+.creativity {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    /* background: #1e2a38; */
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.profile h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #FFD700;
+}
+
+.profile p {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    /* background: #112; */
+    color: #bbb;
+    font-size: 14px;
+}
+
+
+.linkedin-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.linkedin-button a {
+    text-decoration: none;
+}
+
+.linkedin-button button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.linkedin-button button i {
+    margin-right: 8px; /* Spacing between icon and text */
+}
+
+.linkedin-button button:hover {
+    background-color: #005582;
+    transform: scale(1.05);
+}
+
+.leetcode-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.leetcode-button a {
+    text-decoration: none;
+}
+
+.leetcode-button button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffa116;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.leetcode-button button:hover {
+    background-color: #cc840f;
+    transform: scale(1.05);
+}
+
+.leetcode-button button img.leetcode-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Spacing between logo and text */
+    border-radius: 3px; /* Rounded edges for the logo */
+}
+
+.codeforces-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.codeforces-button a {
+    text-decoration: none;
+}
+
+.codeforces-button button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f8acb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.codeforces-button button:hover {
+    background-color: #005c99;
+    transform: scale(1.05);
+}
+
+.codeforces-button button img.codeforces-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Spacing between logo and text */
+    border-radius: 3px; /* Slightly rounded edges */
+}
+
+.codechef-button-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.codechef-button {
+    display: inline-block;
+    background-color: #5a1f08;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.codechef-button:hover {
+    background-color: #7a2b0c;
+    transform: scale(1.05);
+}
+
+.atcoder-button-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.atcoder-button {
+    display: inline-block;
+    background-color: #2e6df6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.atcoder-button:hover {
+    background-color: #1c4ab8;
+    transform: scale(1.05);
+}
+
+#string{
+    height: 200px;
+    width: 100%;
+}  
